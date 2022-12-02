@@ -1,6 +1,9 @@
 /* Your styles here */
 body {
     color: #393d41;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    ;
 }
 
 /* header styles */
@@ -15,11 +18,44 @@ main>div {
     background-color: #e22d0e;
 }
 
+/* banner style */
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    width: 90%;
+    height: 20rem;
+    padding: 10% 5%;
+    background-size: cover;
+}
+
+.banner>p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
 
 
+.banner>h1 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large
+}
 
 
-
+.press {
+    font-size: medium;
+    text-transform: uppercase;
+    color: white;
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    margin: 5% 30%;
+    height: 18%;
+    width: 40%;
+    border: none;
+}
 
 
 
@@ -28,10 +64,7 @@ header {
     background-color: black;
 }
 
-.press {
-    background-color: #f04c2f;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 .garantisce {
     background-color: #e22d0e;
