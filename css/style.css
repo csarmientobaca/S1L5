@@ -3,6 +3,22 @@ body {
     color: #393d41;
 }
 
+/* header styles */
+header>img {
+    width: 40%;
+    height: auto;
+    padding: 7% 30%;
+}
+
+/* main styles */
+main>div {
+    background-color: #e22d0e;
+}
+
+
+
+
+
 
 
 
