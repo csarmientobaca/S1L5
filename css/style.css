@@ -1,4 +1,6 @@
 /* Your styles here */
+
+
 body {
     color: #393d41;
     line-height: 1.65;
@@ -31,7 +33,7 @@ main>div {
 .banner>p {
     text-align: center;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 
@@ -57,7 +59,41 @@ main>div {
     border: none;
 }
 
+/* footer styles */
 
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer>h2 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 90%;
+    height: 5%;
+    padding: 5% 5%;
+}
+
+footer>ul {
+    list-style: none;
+    font-size: large;
+
+}
+
+li>i {
+    margin-right: 2px;
+}
+
+hr {
+    color: #c8e7f0;
+    margin: 5% 25%;
+}
 
 /* bg colors */
 header {
